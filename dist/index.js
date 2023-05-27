@@ -1,4 +1,5 @@
-import { Tangle } from "../../../tangle_ts/dist/tangle.js"
+// import { Tangle } from "../../../tangle_ts/dist/tangle.js"
+import { Tangle } from "./tangle.js"
 
 const canvas = document.getElementById("myCanvas");
 const context = canvas.getContext("2d");

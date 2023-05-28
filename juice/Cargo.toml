@@ -8,6 +8,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 padme-core = { git = "https://github.com/shaoner/padme-core.git", version = "0.0.0" }
+scapegoat = "2.3.0"
 spin = { version = "0.9.8", default-features = false, features = [
     "lazy",
     "spin_mutex",
